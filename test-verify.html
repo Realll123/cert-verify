@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>操作证验证 - TEST001</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f0f2f5;color:#222}
+.top-bar{background:#fff;border-bottom:1px solid #eee;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.top-bar h1{font-size:17px;font-weight:600;flex:1}
+.header-banner{background:linear-gradient(135deg,#1a1a2e,#2d2d5e);color:#fff;padding:28px 20px;text-align:center}
+.header-banner h2{font-size:20px}
+.header-banner p{font-size:13px;color:rgba(255,255,255,.7);margin-top:6px}
+.content{max-width:640px;margin:0 auto;padding:16px}
+.card{background:#fff;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.06);overflow:hidden}
+.card-header{background:#fafafa;border-bottom:1px solid #f0f0f0;padding:12px 16px;font-size:14px;font-weight:600}
+.card-body{padding:16px}
+table{width:100%;border-collapse:collapse}
+td{padding:12px 4px;border-bottom:1px solid #f5f5f5;font-size:15px}
+td:first-child{color:#999;width:28%}
+td:last-child{font-weight:500}
+.badge{display:inline-block;background:#e8f5e9;color:#2e7d32;font-size:12px;padding:2px 10px;border-radius:12px;margin-bottom:12px}
+ol{padding-left:20px;font-size:14px;line-height:2;color:#555}
+.btn-wrap{padding:16px 0 24px;text-align:center}
+.btn{width:90%;max-width:320px;padding:14px;background:#e74c3c;color:#fff;border:none;border-radius:8px;font-size:17px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(231,76,60,.3)}
+.footer{text-align:center;font-size:11px;color:#bbb;padding:16px 20px 30px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="top-bar"><h1>操作证查询系统</h1></div>
+<div class="header-banner">
+  <h2>欢迎访问 操作证验证系统</h2>
+  <p>Certificate No. TEST001</p>
+</div>
+<div class="content">
+  <div class="card">
+    <div class="card-header">基本信息</div>
+    <div class="card-body">
+      <div class="badge">已验证</div>
+      <table>
+        <tr><td>操作证号</td><td>TEST001</td></tr>
+        <tr><td>真实姓名</td><td>王剑</td></tr>
+        <tr><td>身份证号</td><td>420626198508207514</td></tr>
+        <tr><td>操作机型</td><td>臂式高空车</td></tr>
+        <tr><td>有效期至</td><td>2026-12-24</td></tr>
+        <tr><td>指导员</td><td>苑凯歌</td></tr>
+        <tr><td>发证单位</td><td>北京泰鑫伟业机械设备有限公司</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">安全操作规程</div>
+    <div class="card-body">
+      <ol>
+        <li>使用前检查液压油、机油、冷却水，发现问题及时处理，严禁带病使用</li>
+        <li>确保作业范围内无障碍物，转弯减速鸣笛，注意臂杆防碰撞</li>
+        <li>严格按载重量使用，严禁超载</li>
+        <li>行进中禁止其它施工作业</li>
+        <li>定时检查操作、制动、电源系统，定期检修</li>
+        <li>高空作业时关闭防护围栏并检查牢固度</li>
+        <li>上升和旋转禁止同时进行</li>
+        <li>升到作业高度后检查周围环境，确保安全</li>
+        <li>作业人员须系安全带，斗内不超两人</li>
+        <li>严禁酒后作业、疲劳作业</li>
+        <li>使用结束后关闭电源，放到安全位置</li>
+      </ol>
+    </div>
+  </div>
+  <div class="btn-wrap"><button class="btn" onclick="window.print()">打印此页</button></div>
+</div>
+<div class="footer"><div>北京泰鑫伟业机械设备有限公司</div><div>此证支持扫码验真防伪</div></div>
+</body>
+</html>
